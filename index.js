@@ -8,25 +8,24 @@ let txt = "true"
 console.log(typeof txt)
 
 
-let a = 5
-let b = 3
-let а1 = a + b
+
+let а1 = 5 + 3
 console.log(а1)
-let a2 = a - b
+let a2 = 5 - 3
 console.log(a2)
-let a3 = a * b
+let a3 = 5 * 3
 console.log(a3)
-let a4 = a/b
+let a4 = 5/3
 console.log(a4)
 
 
-let a5 = a % b
+let a5 = 5 % 3
 console.log(a5)
-let a6 = b%a
+let a6 = 3%5
 console.log(a6)
-let a7 = a+"b"
+let a7 = 5+"3"
 console.log(a7)
-let a8 = "a" - b
+let a8 = "5" - 3
 console.log(a8)
 let a9 = 75 + 'кг'
 console.log(a9)
@@ -44,5 +43,5 @@ console.log(v)
 
 let n = 3
 let m = 4
-let k = n**n + m**m
+let k = Math.sqrt(n**2+m**2)
 console.log(k)
